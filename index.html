@@ -44,8 +44,6 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
     
     <!-- Structured Data - Person Schema -->
     <script type="application/ld+json">
@@ -87,7 +85,7 @@
       "@type": "ProfessionalService",
       "name": "Muhammad Ashab Mavia - WordPress Development Services",
       "description": "Professional WordPress development, custom theme creation, WooCommerce solutions, and CMS development services in Karachi, Pakistan",
-      "url": "https://muhammadashabmavia.com",
+      "url": "https://muhammad-ashab-mavia.vercel.app/",
       "telephone": "+923180226383",
       "email": "syedashab80@gmail.com",
       "address": {
@@ -102,10 +100,7 @@
       }
     }
     </script>
-    
-    <style>
 
-    </style>
 </head>
 <body>
     <!-- Header -->
@@ -300,25 +295,27 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="section" itemscope itemtype="https://schema.org/ContactPage">
+    <section id="contact" class="section">
         <div class="container">
             <div class="section-title">
                 <h2>Get In Touch - Contact WordPress Developer</h2>
             </div>
-            <div class="contact-container">
+            <div class="contact-container" itemscope itemtype="https://schema.org/Person">
+                <meta itemprop="name" content="Muhammad Ashab Mavia">
+                <meta itemprop="jobTitle" content="Senior Web Developer">
                 <aside class="contact-info">
-                    <div class="contact-item" itemprop="telephone">
+                    <div class="contact-item">
                         <div class="contact-icon" aria-hidden="true">📱</div>
                         <div>
                             <h3>Phone</h3>
-                            <p><a href="tel:+923180226383" aria-label="Call Muhammad Ashab Mavia">+92 318 0226383</a></p>
+                            <p><a href="tel:+923180226383" itemprop="telephone" aria-label="Call Muhammad Ashab Mavia">+92 318 0226383</a></p>
                         </div>
                     </div>
-                    <div class="contact-item" itemprop="email">
+                    <div class="contact-item">
                         <div class="contact-icon" aria-hidden="true">✉️</div>
                         <div>
                             <h3>Email</h3>
-                            <p><a href="mailto:syedashab80@gmail.com" aria-label="Email Muhammad Ashab Mavia">syedashab80@gmail.com</a></p>
+                            <p><a href="mailto:syedashab80@gmail.com" itemprop="email" aria-label="Email Muhammad Ashab Mavia">syedashab80@gmail.com</a></p>
                         </div>
                     </div>
                     <div class="contact-item" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
